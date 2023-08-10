@@ -1,0 +1,32 @@
+.forecast {
+  &-daily,
+  &-hourly {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  &-cont {
+    // width: 200px;
+    // min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  .divider {
+    margin-top: 24px;
+    hr {
+      height: 2px;
+      background-color: #fff;
+      border-radius: 2px;
+      border: none;
+    }
+  }
+  p {
+    font-weight: 500;
+  }
+}

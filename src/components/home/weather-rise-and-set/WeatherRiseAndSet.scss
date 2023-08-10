@@ -1,0 +1,16 @@
+.rise-and-set {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  &-rise,
+  &-set,
+  &-high,
+  &-low {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+}

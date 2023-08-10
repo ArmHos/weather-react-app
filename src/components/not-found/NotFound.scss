@@ -1,0 +1,17 @@
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  h2 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+  svg {
+    font-size: 35px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
